@@ -1,0 +1,24 @@
+.hello{
+    color: red;
+    /* background-color: blue; */
+    top:100px;
+    bottom: 100px;
+    left: 100px;
+    right: 100px;
+    position:absolute;
+}
+.div1{
+    top:100px;
+    bottom: 100px;
+    left:100px;
+    right: 100px;
+    position:absolute;
+}
+#hello1{
+    color:rgba(100,0,1);
+}
+.div2{
+    background-color: orange;
+    color: blue;
+    font-size: 50px;
+}
