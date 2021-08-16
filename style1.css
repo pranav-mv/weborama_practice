@@ -1,0 +1,66 @@
+body{
+    background:linear-gradient(to left,#1573ed,#15e6ed);
+    /* background-image:url("Capture1.JPG"); */
+    font-size: 30px;
+    background-size: cover;
+}
+.circle{
+    width:10cm;
+    height: 10cm;
+    background-image: url("https://images.pexels.com/photos/207353/pexels-photo-207353.jpeg?cs=srgb&dl=pexels-pixabay-207353.jpg&fm=jpg");
+    background-size: cover;
+    border-radius:100% ;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+}
+#screen{
+    width:5cm;
+    height: 2cm;
+    background-color: white;
+    top:20%;
+    right:50%;
+    left: 25%;
+    position: relative;
+    box-shadow: 2px 2px 2px #e3f211;
+    text-align: center;
+    
+
+}
+button{
+    height: 20%;
+    width: 20%;
+    background-color: rgb(10, 255, 182);
+    border-radius: 100%;
+    
+}
+.add{
+    top: 30%;
+    left:10%;
+    font-size: 50px;
+    position: relative;
+    
+}
+.sub{
+    top: 30%;
+    left:50%;
+    
+    font-size: 40px;
+    position: relative;
+}
+.reset{
+    top: 40%;
+    right:5%;
+    font-size: 20px;
+    position: relative;
+}
+button:hover{
+    color:blue;
+    background-color:greenyellow ;
+    text-shadow: 1px 1 px 1 px rebeccapurple;
+}
+
+
+
